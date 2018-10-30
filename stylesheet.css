@@ -46,7 +46,7 @@
 	}
 
 	.card{
-		height: 730px !important;     
+		height: 695px !important;     
 	}
 
 	.front{
@@ -55,15 +55,16 @@
 	.backgroundHead{
 		height:100vh !important;
 	}
-	#git{
-		margin-left:11px !important;
-	}
-	#medium{
-		margin-left:11px !important;
-	}
+	
 	
 	
 
+}
+
+@media only screen and (max-width:350px){
+	.card{
+		height: 750px !important;     
+	}
 }
 
 #git,#medium,#linked{

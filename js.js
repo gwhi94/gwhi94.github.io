@@ -1,4 +1,12 @@
-window.onload=function(){ setTimeout(function(){ window.scrollTo(0, 1); }, 0); }
+$(document).ready(function(){
+
+  console.log("ready");
+  $('html,body').animate({ 
+    scrollTop: $("#sliderWrap").offset().top +50 }, 
+    200);
+
+});
+
 
 $("#arrowOne").click(function(){
 	$('html,body').animate({
