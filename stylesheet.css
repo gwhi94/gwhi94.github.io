@@ -189,7 +189,7 @@ body{
 .downArrow{
 	position: absolute;
 	width:300px;
-	bottom:0px;
+	top:600px;
 	right:25%;
 	left:50%;
 	margin-left:-150px;
@@ -200,7 +200,6 @@ body{
 	width: 100px;
 	margin-left: auto;
 	margin-right: auto;
-
 
 }
 
