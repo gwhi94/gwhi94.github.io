@@ -1,11 +1,4 @@
 
-$("#arrowOne").click(function(){
-	$('html,body').animate({
-		scrollTop: $("#about").offset().top -15},
-		900);
-	});
-
-
 
 window.onscroll = function(){stickyNav()};
 
